@@ -1,0 +1,11 @@
+word="Bawl"
+shift_from="w"
+sfift_to="l"
+string=""
+
+for i in word:
+    if i==shift_from:
+        string+=sfift_to
+    else:
+        string+=i
+print(string)
